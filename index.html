@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edgar Felipe | Portafolio</title>
+  <meta name="description" content="Portafolio personal de Edgar Felipe, estudiante de programación.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== Barra de navegación ===== -->
+  <header class="navbar">
+    <a href="#inicio" class="logo">&lt;Edgar /&gt;</a>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <button id="modo-oscuro" title="Cambiar tema">🌙</button>
+  </header>
+
+  <!-- ===== Portada ===== -->
+  <section id="inicio" class="hero">
+    <p class="saludo">¡Hola, mundo! 👋</p>
+    <h1>Soy <span>Edgar Felipe</span></h1>
+    <p class="subtitulo">Estudiante de programación que aprende construyendo cosas reales.</p>
+    <div class="botones">
+      <a href="#proyectos" class="btn btn-primario">Ver proyectos</a>
+      <a href="#contacto" class="btn btn-secundario">Contáctame</a>
+    </div>
+  </section>
+
+  <!-- ===== Sobre mí ===== -->
+  <section id="sobre-mi" class="seccion">
+    <h2>Sobre mí</h2>
+    <div class="tarjeta">
+      <p>
+        Estoy empezando en el mundo de la programación y me gusta aprender
+        practicando: primero con ejemplos, luego construyendo proyectos
+        pequeños hasta entender cómo encaja cada pieza.
+      </p>
+      <p>
+        Este portafolio es mi primer proyecto publicado en GitHub. Lo hice con
+        <strong>HTML</strong>, <strong>CSS</strong> y <strong>JavaScript</strong>,
+        sin frameworks, para entender bien las bases.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Habilidades ===== -->
+  <section id="habilidades" class="seccion seccion-alterna">
+    <h2>Habilidades</h2>
+    <div class="grid" id="lista-habilidades">
+      <!-- Se llena desde JavaScript -->
+    </div>
+  </section>
+
+  <!-- ===== Proyectos ===== -->
+  <section id="proyectos" class="seccion">
+    <h2>Proyectos</h2>
+    <div class="grid" id="lista-proyectos">
+      <!-- Se llena desde JavaScript -->
+    </div>
+  </section>
+
+  <!-- ===== Contacto ===== -->
+  <section id="contacto" class="seccion seccion-alterna">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto" class="tarjeta formulario">
+      <label>
+        Tu nombre
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+      </label>
+      <label>
+        Tu correo
+        <input type="email" name="correo" placeholder="ejemplo@correo.com" required>
+      </label>
+      <label>
+        Mensaje
+        <textarea name="mensaje" rows="4" placeholder="¿En qué puedo ayudarte?" required></textarea>
+      </label>
+      <button type="submit" class="btn btn-primario">Enviar mensaje</button>
+      <p id="mensaje-enviado" class="mensaje-ok" hidden>✅ ¡Mensaje enviado! (demo: no sale del navegador)</p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© <span id="anio"></span> Edgar Felipe — Hecho con HTML, CSS y JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
