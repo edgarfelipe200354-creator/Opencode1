@@ -28,16 +28,16 @@ python3 -m http.server 8000
 2. En *Source*, elige la rama `main` y guarda
 3. En unos minutos estará en:
    `https://edgarfelipe200354-creator.github.io/Opencode1/`
+# GAIA - Modelo Fundacional Geoespacial para Análisis Territorial
 
-## ✏️ Cómo personalizarlo
+## Descripción General
+Este proyecto integra y evalúa el modelo fundacional geoespacial **GAIA** (Geospatial Artificial Intelligence for Atmospheres/Analytics), diseñado para el análisis automatizado de dinámicas ambientales, reconstrucción de condiciones atmosféricas y procesamiento avanzado de datos espaciales. El modelo se implementa como una arquitectura base para el diagnóstico de ordenamiento territorial, permitiendo asimilar grandes volúmenes de datos geoespaciales y extraer patrones complejos (como coberturas del suelo, variaciones climáticas y dinámicas urbanas) de manera más eficiente y explicable que los modelos tradicionales.
 
-- **Textos y secciones:** todo está en `index.html`
-- **Habilidades y proyectos:** edita los arreglos `habilidades` y `proyectos` al inicio de `script.js`
-- **Colores:** cambia las variables al inicio de `styles.css` (busca `--acento`)
+## Ficha Técnica del Modelo (Model Card)
+Puedes consultar la documentación detallada sobre la arquitectura fundacional, requerimientos de entrenamiento, usos previstos y consideraciones de despliegue en la [Ficha de Descripción del Modelo (MODEL_CARD.md)](./MODEL_CARD.md).
 
-## 🔧 Conceptos que practiqué
-
-- HTML semántico (`header`, `section`, `footer`, `form`)
-- CSS con variables y modo oscuro
-- JavaScript: `for...of`, `localStorage`, eventos del DOM
-- Flujo de trabajo con Git: `add`, `commit`, `push`
+## Datos del Autor
+* **Autor:** Edgar Felipe Mora Rincon
+* **Programa** Ingeniería Catastral y Geodesia - Universidad Distrital Francisco José de Caldas
+* **Contacto:** edgarfelipe200354@gmail.com
+* **Rol en el proyecto:** Implementación de flujos de trabajo de análisis espacial e integración de modelos fundacionales para el ordenamiento territorial.
